@@ -21,7 +21,9 @@ cl++;
 flag2=1;
 }
 }
-if(flag1==1)&&(flag2==1)
+if(flag1==1)
+{
+if(flag2==1)
 {
 if(op>cl)
 {
@@ -36,6 +38,7 @@ tem=tem+op;
 else
 {
 tem=op+cl;
+}
 }
 }
 printf("number of valid paranthesis is %d",tem);
