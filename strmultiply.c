@@ -3,12 +3,19 @@
 #include<conio.h>
 void main()
 {
-char a[]="12";
-char c[]="11";
-int b,d;
+char a[10];
+char c[10];
+char e[100];
+int b,d,temp;
 clrscr();
+printf("enter th number");
+scanf("%s",a);
+printf("enter the second number");
+scanf("%s",c)
 b=atoi(a);
 d=atoi(c);
-printf("%d",b*d);
+temp=b*d;
+tostring(e,temp);
+printf("%s",e);
 getch();
 }
